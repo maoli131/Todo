@@ -16,8 +16,6 @@ class TodoList extends Component {
                     <form onSubmit={this.props.addItem}>
                         <input 
                             placeholder="Enter task here"
-                            onfocus="this.placeholder = ''"
-                            onblur="this.placeholder = 'Enter task here'"
                             ref={this.props.inputElement}
                             value={this.props.currentItem.text}
                             onChange={this.props.handleInput}
