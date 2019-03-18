@@ -2,8 +2,6 @@ import React, { Component } from 'react';
 //import logo from './logo.svg';
 import './App.css';
 import TodoList from './TodoList';
-import TodoItems from './TodoItems'
-
 class App extends Component {
     
     constructor() {
@@ -53,15 +51,13 @@ class App extends Component {
     render() {
         return (
             <div className="App">
-                <h1>To Do List</h1>
+                <h1 id="title">To Do List</h1>
                 <TodoList 
                     addItem={this.addItem}
                     inputElement={this.inputElement}
                     handleInput={this.handleInput}
                     currentItem={this.state.currentItem}
-                />
-                <TodoItems 
-                    entries={this.state.items} 
+                    entries={this.state.items}
                     deleteItem={this.deleteItem}
                 />
             </div>

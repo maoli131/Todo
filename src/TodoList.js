@@ -1,4 +1,5 @@
 import React, { Component } from 'react'
+import TodoItems from './TodoItems';
 //import { Button } from 'react-bootstrap';
 
 class TodoList extends Component {
@@ -11,10 +12,10 @@ class TodoList extends Component {
     render() {
         return (
             <div className="todoListMain">
-                <div className="header">
+                <div className="enterTask">
                     <form onSubmit={this.props.addItem}>
                         <input 
-                            placeholder="Task" 
+                            placeholder="Enter task here"
                             ref={this.props.inputElement}
                             value={this.props.currentItem.text}
                             onChange={this.props.handleInput}
@@ -22,6 +23,10 @@ class TodoList extends Component {
                         <button type="submit"> Add Task </button>
                     </form>
                 </div>
+                <TodoItems 
+                    entries={this.props.entries} 
+                    deleteItem={this.props.deleteItem}
+                />
             </div>
         )
     }
