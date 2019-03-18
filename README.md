@@ -6,7 +6,7 @@ to learn react. This project will include more functionality and be deployed via
 
 <br>
 
-![Sample Screen](public/demo.gif?raw=true "Sample Screen")
+![Sample Screen](public/screen.png)
 
 <br>
 
