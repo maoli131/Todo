@@ -60,6 +60,10 @@ class App extends Component {
                     entries={this.state.items}
                     deleteItem={this.deleteItem}
                 />
+                <footer class="info">
+                    <p>A simple react to-do <br/> 
+                    Created by <a href="https://www.li-mao.net">Mao Li</a></p>
+		        </footer>
             </div>
         );
     }
