@@ -18,7 +18,8 @@ body {
   line-height: 200px;
   height: 200px;
   text-align: center;
-  font-size: 6vw;
+  font-size: 4em;
+  font-weight: bold;
 }
 
 .todoListMain .enterTask input {
@@ -87,11 +88,4 @@ ul.theList {
 .todoListMain .theList li:hover {
   background-color: pink;
   cursor: pointer;
-}
-
-
-
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
 }
