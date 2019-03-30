@@ -5,7 +5,7 @@ It is deployed as a [static website with Azure](https://react-todo.azurewebsites
 
 It serves as a simple hand-on project for me to play with web development (React, Azure, etc). I'm actively extending
 this project to include more features (login/logout, better UI, etc.).
-It's also an examplary project which will be included in my tutorial about React and Azure.
+It's also an examplary project to be included in my tutorial about React and Azure.
 
 <br>
 
