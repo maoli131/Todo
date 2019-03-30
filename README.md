@@ -3,7 +3,7 @@
 This project is a web based todo list. User can add with text box and delete todo item by clicking.
 It is deployed as a [static website with Azure](https://react-todo.azurewebsites.net). 
 
-It serves as a simple hand-on project for me to play with web development (React, Azure, etc). I actively extending
+It serves as a simple hand-on project for me to play with web development (React, Azure, etc). I'm actively extending
 this project to include more features (login/logout, better UI, etc.).
 It's also an examplary project which will be included in my tutorial about React and Azure.
 
